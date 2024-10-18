@@ -24,3 +24,5 @@ service UsersService {
   rpc findAll (commons.Query) returns (UsersList) {}
   rpc count (commons.Query) returns (commons.Count) {}
 }
+
+
